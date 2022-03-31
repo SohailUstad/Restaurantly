@@ -1,0 +1,63 @@
+/* body start */
+body {
+    background-image: url("Images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* body end */
+
+
+
+/* topbar start */
+.top-bar {
+    display: grid;
+    grid-template-columns: 15% 15%;
+    color: white;
+    padding-left: 100px;
+}
+
+.top-bar .phone-number, .time {
+    padding: 10px;
+}
+
+/* topbar end */
+
+
+
+/* navbar start */
+.nav-bar {
+    display: grid;
+    grid-template-columns: 20% 5% 5% 5% 5% 5% 5% 5%;
+    background-color: rgba(0, 0, 0, .3);
+    color: white;
+}
+
+.nav-bar .title {
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-bar .menu-elements {
+    text-align: center;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.nav-bar .menu-elements a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar .title a {
+    color: white;
+    text-decoration: none;
+}
+
+/* navbar end */
